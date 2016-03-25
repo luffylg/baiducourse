@@ -1,0 +1,465 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body
+{
+    background-color: #999999;
+}
+.main
+{
+    background-color: white;
+    width: 980px;
+    height: 1386px;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+.yemei
+{
+    width: 892px;
+    height: 63px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 2px #938e8c solid;
+}
+.logo
+{
+    display: inline-block;
+    width: 110px;
+    height: 61px;
+    background-color:#d55d5c;
+}
+.logo > span
+{
+
+    font:12px SimHei;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+}
+.yemei > time
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font: 12px SimHei ;
+    color: #d45d5c;
+}
+.main-body
+{
+    width: 892px;
+    height: 1260px;
+    margin: 0 auto;
+}
+.top
+{
+    height: 301px;
+    margin-top: 35px;
+    position: relative;
+}
+.top-pic
+{
+    height: 301px;
+    width: 641px;
+    position: absolute;
+}
+.top-pic > img
+{
+    height: 301px;
+    width: 641px;
+    position: absolute;
+}
+.top-pic .left
+{
+    position: absolute;
+    left: 0;
+    width:191px;
+    height: 301px;
+    background-color: rgba(117, 189, 107, 0.2);
+}
+.top-pic .right
+{
+    position: absolute;
+    right: 0;
+    width:191px;
+    height: 301px;
+    background-color: rgba(213, 93, 92, 0.2);
+}
+.top-title
+{
+    width: 203px;
+    height: 301px;
+    border-top: 2px #cc8091 solid;
+    position: absolute;
+    right: 0;
+}
+.top-title > .header
+{
+    position: absolute;
+    top: 0;
+}
+.top-title > .header > h1
+{
+    line-height: 40px;
+    font: 24px Microsoft YaHei;
+    color: #000000;
+    text-transform: capitalize;
+    font-variant:small-caps;
+    text-decoration: underline;
+}
+.top-title > .header > p
+{
+    line-height: 10px;
+    font: 12px KaiTi;
+    font-style: italic;
+    color: #676767;
+}
+.top-title > .body
+{
+    margin-top: 100px;
+}
+.top-title > .body >span
+{
+    font: 116px Microsoft YaHei oblique;
+    color: #75b86b;
+}
+.top-title .footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 203px;
+}
+.top-title .footer .a
+{
+    font: 55px MicrosoftYaHei;
+    color: #cc8091;
+}
+.top-title .footer .b
+{
+    position: absolute;
+    bottom: 20px;
+    font: 21px MicrosoftYaHei;
+    color: #cc8091;
+}
+.top-title .footer .c
+{
+    position: absolute;
+    bottom: 12px;
+    font: 12px MicrosoftYaHei;
+    color: #cccccc;
+}
+.wwh
+{
+    margin-top: 40px;
+    height: 200px;
+}
+.wwh .what
+{
+    float: left;
+    width: 230px;
+}
+.wwh .what > h1
+{
+    font: 16px MicrosoftYaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #418c59;
+}
+.wwh .what > p
+{
+    color: #767777;
+    font: 12px SimSun;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.wwh .when
+{
+    float: left;
+    width: 210px;
+    margin-left: 25px;
+}
+.wwh .when > h1
+{
+    font: 16px MicrosoftYaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #d2994f;
+}
+.wwh .when > p
+{
+    color: #231815;
+    font: 12px MicrosoftYaHei;
+    line-height: 18px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.wwh .how
+{
+    float: left;
+    width: 210px;
+    margin-left: 25px;
+}
+.wwh .how > h1
+{
+    font: 16px MicrosoftYaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #418c59;
+}
+.wwh .how > p
+{
+    color: #767777;
+    font: 12px SimSun;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.wwh .how > ul
+{
+    margin-top: 24px;
+    margin-left: 5px;
+    font: 12px MicrosoftYaHei;
+    line-height: 20px;
+}
+.wwh .how ul span
+{
+    color: #cd4a48;
+    font-style: oblique;
+    opacity: 0.7;
+}
+
+
+
+.bottom
+{
+    margin-top: 50px;
+    position: relative;
+    overflow:hidden;
+    height: 635px;
+}
+.bottom > .left
+{
+    position: absolute;
+    left: 0;
+    width: 415px;
+    height: 640px;
+}
+
+.bottom > .left >.title
+{
+    border-bottom: solid 2px;
+    color: #11456b;
+}
+.bottom > .left >.title >h1
+{
+    font: 42px SimHei;
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.bottom > .left >.title >h1 >span
+{
+    font: 72px SimHei;
+    font-style: oblique;
+    color: #f5e327;
+}
+.bottom > .left >.title >h2
+{
+    font: 33px SimHei;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.bottom > .left >article
+{
+    position: absolute;
+    top:200px;
+    left: 0;
+    font: 12px "SimSun";
+    line-height: 18px;
+    width: 415px;
+    color: #767777;
+}
+.bottom > .left >article >img
+{
+    float: right;
+    margin: 18px 10px 18px 18px;
+}
+.bottom > .left >article >p
+{
+    text-indent: 2em;
+}
+.bottom > .left >article >.first-p
+{
+    text-indent: 0;
+}
+.bottom > .left >article >.first-p>span
+{
+    font: 70px MicrosoftYaHei;
+    color: #f5e327;
+    float: left;
+}
+
+
+
+.bottom > .right
+{
+    position: absolute;
+    right: 0;
+    width: 458px;
+    height: 640px;
+}
+.bottom > .right>.right-top
+{
+    width: 458px;
+    height: 275px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSH2aQvwGE0AyWV0SRDXzLLUTIediCjyqT_yvJ65-F28CBchserGQ);
+    background-size: cover;
+    position: relative;
+}
+.bottom > .right>.right-top>.color
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 61px;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 8px 35px;
+}
+.bottom > .right>.right-top>.color >h1
+{
+    font: 26px MicrosoftYaHei;
+    height: 44px;
+    color: #ffffff;
+    border-left: 3px #72b16a solid;
+    padding: 7px 9px;
+}
+.bottom > .right>.right-top>.color >h1> span
+{
+    font: 12px MicrosoftYaHei;
+    font-style: oblique;
+    color: #72b16a;
+    letter-spacing: 2px;
+}
+.bottom > .right>.right-bottom
+{
+    margin-top: 30px;
+    position: relative;
+    background-color: #eeedd6;
+    overflow: hidden;
+}
+.bottom > .right>.right-bottom >ul
+{
+    list-style: none;
+    padding: 0 20px 20px 20px;
+
+}
+.bottom > .right>.right-bottom >ul>li
+{
+    font: 16px SimSun;
+    color: #5a5b5b;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+.bottom > .right>.right-bottom >ul>li>em
+{
+    display:block; font:0/0 "宋体"; border:6px solid; border-color:#f0f0f0 #f0f0f0 #11456b #f0f0f0 ; float:left; margin-top:6px;
+    margin-right: 4px;
+}
+.bottom > .right>.right-bottom >ul>li>span
+{
+    font: 12px SimSun;
+    font-style: oblique;
+    text-align: right;
+}
+.bottom > .right>.right-bottom> .left
+{
+    height: 160px;
+    width: 260px;
+    float: left;
+    background-color: #d45d5c;
+}
+.bottom > .right>.right-bottom> .left>.num1
+{
+    float: left;
+    font: 110px MicrosoftYaHei;
+    color: #ffffff;
+    border-right: solid 2px;
+    line-height: 86px;
+    margin: 33px 5px auto 10px;
+    padding-right: 5px;
+}
+.bottom > .right>.right-bottom> .left>.num2
+{
+    float: left;
+    font: 21px SimHei;
+    font-style: oblique;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 35px 0 5px;
+}
+.bottom > .right>.right-bottom> .left>.num3
+{
+    float: left;
+    font: 12px SimHei;
+    line-height: 12px;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.bottom > .right>.right-bottom> .right
+{
+    font: 14px SimHei;
+    color: #5a5b5b;
+    font-style: oblique;
+    padding-top: 20px;
+    margin-left: 275px;
+    margin-right: 6px;
+}
+.bottom > .right>.right-bottom> p
+{
+
+}
+.bottom > .right>.right-bottom> .right span
+{
+    color: #d45d5c;
+    font: 72px SimHei;
+}
+.bottom > .right>.right-bottom> .right> p>.begin
+{
+    float: left;
+    line-height: 46px;
+    margin-bottom: -30px;
+    margin-left: -39px;
+    margin-right: 9px;
+}
+.bottom > .right>.right-bottom> .right> p>.end
+{
+    float: right;
+    line-height: 40px;
+    margin-top: 18px;
+    margin-right: -20px;
+}
+
+.yejiao
+{
+    width: 892px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 44px;
+    height: 50px;
+    border-top: 1px #938e8c solid;
+}
+.yejiao > span
+{
+    font:12px SimHei;
+    color: #d45d5c;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
