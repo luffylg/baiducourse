@@ -1,0 +1,199 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    height: 60px;
+    background-color: black;
+    position: relative;
+}
+
+header img
+{
+    height: 40px;
+    margin: 10px 50px 5px 50px;
+}
+
+nav.nav-top
+{
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+nav.nav-top li
+{
+    float: left;
+    color: white;
+    margin: 0 20px;
+
+}
+
+nav.nav-top a
+{
+    color: white;
+    text-decoration: none
+}
+
+nav.nav-top a:hover
+{
+    color: darkgrey;
+}
+
+body
+{
+    background-color: rgb(222,222,222);
+}
+
+article
+{
+    width:90%;
+    border: thin solid rgb(203, 203, 203);
+    box-shadow: 3px 3px 3px grey;
+    padding: 40px;
+    margin: 40px auto;
+    background-color: white;
+    line-height: 2em;
+}
+
+article p
+{
+    text-indent: 2em;
+}
+
+article li
+{
+    list-style-type: none;
+    list-style-position:inside;
+}
+figure
+{
+    margin: 10px 0 10px 10px;
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+figure img
+{
+    padding: 10px;
+    width: 300px;
+}
+
+figure figcaption
+{
+    text-align: center;
+    text-indent: 0;
+}
+
+#last-article p
+{
+    text-indent: 0;
+}
+
+#last-article li
+{
+    list-style-type: decimal;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid #ccc;
+}
+
+th
+{
+    background-color: #333;
+    color: white;
+}
+
+tfoot
+{
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+aside
+{
+    width: 90%;
+    border: thin solid rgb(203, 203, 203);
+    padding: 40px;
+    margin: 40px auto;
+    background-color: white;
+}
+
+aside h2
+{
+    border-left: 5px solid #cccccc;
+    padding: 10px;
+}
+
+aside table td
+{
+    line-height: 40px;
+    border: transparent;
+}
+
+.right
+{
+    text-align: right;
+}
+
+aside input
+{
+    border: 1px solid #cccccc;
+    line-height: 25px;
+    text-align: left;
+}
+
+#email, #password
+{
+    font-size: 15px;
+    color: darkgrey;
+}
+
+textarea
+{
+    width: 100%;
+    border: 1px solid #CECECE;
+    height: 100px;
+}
+
+#personal
+{
+    vertical-align: text-top;
+}
+
+#submit
+{
+    cursor: pointer;
+    background-color: #3355D0;
+    width: 100%;
+    margin:10px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+body > footer
+{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 10px;
+    font-weight: bold;
+}
