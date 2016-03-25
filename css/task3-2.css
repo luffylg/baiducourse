@@ -1,0 +1,55 @@
+
+div
+{
+    padding: 20px;
+    border: 1px solid #999;
+}
+.main
+{
+    background-color: #eeeeee;
+    overflow: auto;
+}
+.main div
+{
+    background-color: white;
+}
+.name
+{
+    width: 200px;
+    float: left;
+}
+.name img
+{
+    float:left;
+    width: 80px;
+    height: 80px;
+}
+.name p
+{
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+}
+.logo
+{
+    float: right;
+    width: 120px;
+}
+.logo img
+{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.introduction
+{
+    margin-left: 270px;
+    margin-right: 200px;
+}
+.introduction p
+{
+    text-indent: 2em;
+    line-height: 4em;
+}
